@@ -15,8 +15,21 @@ There are three ways todo it:
 ```
 2. Clone this repo and just run:
 ```
-git clone
-cd /
+git clone https://github.com/alex5250/grepper_py.git
+cd grepper_py
 make build
 make install
 ```
+3. Use .deb /.rpm package (comming soon) 
+4. Windows users please compile from sourses (binary comming later)
+
+
+# I am software developer (how to perpare env for debug/develop this project)
+Just run correct make command:
+```
+git clone https://github.com/alex5250/grepper_py.git
+make develop
+```
+
+
+
