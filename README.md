@@ -44,6 +44,7 @@ make install
 ```
 3. Use .deb /.rpm package (comming soon) 
 4. Windows users please compile from sourses (binary comming later)
+5. Unstable and fresh binaries can be downloaded from your github actions.
 
 
 # I am software developer (how to perpare env for debug/develop this project)
