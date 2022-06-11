@@ -30,6 +30,7 @@ sudo cp grepper_py /usr/bin/grepper_py
 wget https://raw.githubusercontent.com/alex5250/grepper_py/main/config_sample.ini 
 sudo mkdir /etc/grepper.py
 sudo cp config_sample.ini  /etc/greepper.py/config.ini
+sudo chmod 755 /etc/grepper.py
 ```
 2. Clone this repo and just run:
 ```
