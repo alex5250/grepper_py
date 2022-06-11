@@ -8,20 +8,15 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/upload-artifact@v3
-  
-    
-
-      
     - name: Install dependencies
       run: make build
-    with:
-    -name: grepper-py binary
-     path: /home/runner/work/grepper_py/grepper_py/dist/main
+    - uses: actions/upload-artifact@v2
+      with:
+            name: grepper.py build binary. 
+            path: /home/runner/work/grepper_py/grepper_py/dist/main
+
       
 
