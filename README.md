@@ -1,12 +1,9 @@
 # grepper_py
 Simple project on Python that allow you to found solutions from codegrepper and display them in terminal.
 # One video will show this better that 1000 words:
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=IFlNKX4cl18"><img src="https://img.youtube.com/vi/IFlNKX4cl18/0.jpg" alt="IMAGE ALT TEXT"></a>
-</div>
 
 
-
+P.S Why [Youtube](https://www.youtube.com/watch?v=IFlNKX4cl18), everything is simple I am using music from there, so I should use this platform.
 
 
 # Todo
