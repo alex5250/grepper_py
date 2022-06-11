@@ -13,7 +13,7 @@ P.S Why [Youtube](https://www.youtube.com/watch?v=IFlNKX4cl18), everything is si
 Project is not finished:
 - [x] Codegrepper parsing
 - [x] Linux support
-- [ ] CI/CD on GitHub actions
+- [x] CI/CD on GitHub actions
 - [ ] Linux .deb / .rpm packages
 - [ ] Windows binaries
 - [ ] Stackoverflow parsing.
