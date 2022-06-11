@@ -1,8 +1,6 @@
 # grepper_py
 Simple project on Python that allow you to found solutions from codegrepper and display them in terminal.
 # One video will show this better that 1000 words:
-
-
 https://user-images.githubusercontent.com/20460747/173205065-2be53958-5e0d-4664-a297-5dc3808bf2c9.mp4
 
 
@@ -26,6 +24,12 @@ The project uses selenium with Chrome driver this is because all content is gene
 There are three ways todo it:   
 1. download binary and copy it to /usr/bin and  install config 
 ```
+mkdir tmp && cd tmp 
+wget https://github.com/alex5250/grepper_py/releases/download/v0.01-Linux/grepper_py
+sudo cp grepper_py /usr/bin/grepper_py
+wget https://raw.githubusercontent.com/alex5250/grepper_py/main/config_sample.ini 
+sudo mkdir /etc/grepper.py
+sudo cp config_sample.ini  /etc/greepper.py/config.ini
 ```
 2. Clone this repo and just run:
 ```
