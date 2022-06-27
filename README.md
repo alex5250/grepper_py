@@ -15,7 +15,7 @@ Project is not finished:
 - [x] Linux support
 - [x] CI/CD on GitHub actions
 - [ ] Linux .deb / .rpm packages
-- [ ] Windows binaries
+- [x] Windows binaries
 - [ ] Stackoverflow parsing.
 
 # How is made:
