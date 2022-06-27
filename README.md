@@ -53,6 +53,11 @@ Just run correct make command:
 git clone https://github.com/alex5250/grepper_py.git
 make develop
 ```
+# Now works on Windows 10 
+![image](https://user-images.githubusercontent.com/20460747/175902358-37289e58-d8f2-4ae7-9b5c-b7b256148981.png)
+
+# Put all files in one place and run command in terminal
+![image](https://user-images.githubusercontent.com/20460747/175902467-ce60475d-f426-4d7c-9879-2556adaaafc6.png)
 
 
 
