@@ -7,5 +7,5 @@ def setup_logger(name):
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
     logger.propagate = False
-    logger.addHandler(logging.FileHandler('/etc/grepper.py/log.d'))
+    logger.addHandler(logging.FileHandler('log.d'))
     return logger
