@@ -7,7 +7,7 @@ logger = setup_logger(__name__)
 class Config():
     def __init__(self):
         self.config=configparser.ConfigParser()
-        self.config.read("/etc/grepper.py/config.ini")
+        self.config.read("config.ini")
         if len(self.config.sections()) >= 1:
             logger.debug(f"Config file check: passed. Config contains:{self.config.sections()}")
         else:
@@ -24,7 +24,7 @@ class Config():
             return value
     def set_value_from_config(self,selection,value,set_value):
         self.config.set(selection,value,set_value)
-        with open('/etc/grepper.py/config.ini', 'w') as configfile:
+        with open('config.ini', 'w') as configfile:
             self.config.write(configfile)           
     pass
 
