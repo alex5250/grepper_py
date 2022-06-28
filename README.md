@@ -43,7 +43,7 @@ make build
 make install
 ```
 3. Use .deb /.rpm package (comming soon) 
-4. Windows users please compile from sourses (binary comming later)
+4. Windows users download binaries froom release.
 5. Unstable and fresh binaries can be downloaded from your github actions.
 
 
